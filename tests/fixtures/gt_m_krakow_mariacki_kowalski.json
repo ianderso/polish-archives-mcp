@@ -1,0 +1,53 @@
+{
+ "draw": 1,
+ "recordsTotal": 27,
+ "recordsFiltered": 27,
+ "data": [
+  [
+   1860,
+   "110",
+   "Bazyli ",
+   "Wilk",
+   "Michał, Maria Hoptyszyn",
+   "Karolina Marianna",
+   "Kowalska",
+   "Jan, Anna Szymek",
+   "Kraków WNMP (Mariacki)",
+   "<img src=\"images/i.png\" title=\"Uwagi: Skan 116 &#013;Miejscowość: Kraków  &#013;Data ślubu: 18.11.1860 r. \"><a href=\"http://ank.gov.pl/\" target=\"_blank\"><img src=\"images/z.png\" title=\"Miejsce przechowywania ksiąg: &#013;Archiwum Narodowe w Krakowie &#013;&#013;30-960 Kraków, ul. Sienna 16\"></a><a target=\"_blank\" href=\"https://www.genealodzy.pl/user.php?op=userinfo&amp;uname=agnieszka5995\"><img src=\"images/a.png\" title=\"Indeks dodał: agnieszka5995\"></a><a href=\"fix.php?gid=1022042&bdm=S&w=06mp&rid=1301&lang=pol\" target=\"_blank\"><img src=\"images/fix.png\" title=\"Zgłoś poprawkę\"></a>"
+  ],
+  [
+   1860,
+   "102",
+   "Franciszek ",
+   "Kowalski",
+   "Andrzej, Marianna Bila",
+   "Franciszka ",
+   "Kos<img src=\"images/i.png\" title=\"Inne nazwiska: Kosińska \">",
+   "Tomasz, Salomea Gaszek",
+   "Kraków WNMP (Mariacki)",
+   "<img src=\"images/i.png\" title=\"Uwagi: Skan 115 &#013;Miejscowość: Kraków  &#013;Data ślubu: 04.11.1860 r. \"><a href=\"http://ank.gov.pl/\" target=\"_blank\"><img src=\"images/z.png\" title=\"Miejsce przechowywania ksiąg: &#013;Archiwum Narodowe w Krakowie &#013;&#013;30-960 Kraków, ul. Sienna 16\"></a><a target=\"_blank\" href=\"https://www.genealodzy.pl/user.php?op=userinfo&amp;uname=agnieszka5995\"><img src=\"images/a.png\" title=\"Indeks dodał: agnieszka5995\"></a><a href=\"fix.php?gid=1022034&bdm=S&w=06mp&rid=1301&lang=pol\" target=\"_blank\"><img src=\"images/fix.png\" title=\"Zgłoś poprawkę\"></a>"
+  ],
+  [
+   1860,
+   "97",
+   "Jan ",
+   "Masłowski",
+   "Wojciech, Marianna Tenczyńska",
+   "Karolina Józefa",
+   "Książczykiewicz<img src=\"images/i.png\" title=\"Inne nazwiska: Ksiąszczykiewicz \">",
+   "Walenty, Franciszka Kowal",
+   "Kraków WNMP (Mariacki)",
+   "<img src=\"images/i.png\" title=\"Uwagi: Skan 115 &#013;Miejscowość: Kraków  &#013;Data ślubu: 11.10.1860 r. \"><a href=\"http://ank.gov.pl/\" target=\"_blank\"><img src=\"images/z.png\" title=\"Miejsce przechowywania ksiąg: &#013;Archiwum Narodowe w Krakowie &#013;&#013;30-960 Kraków, ul. Sienna 16\"></a><a target=\"_blank\" href=\"https://www.genealodzy.pl/user.php?op=userinfo&amp;uname=agnieszka5995\"><img src=\"images/a.png\" title=\"Indeks dodał: agnieszka5995\"></a><a href=\"fix.php?gid=1022029&bdm=S&w=06mp&rid=1301&lang=pol\" target=\"_blank\"><img src=\"images/fix.png\" title=\"Zgłoś poprawkę\"></a>"
+  ]
+ ],
+ "parishes": {
+  "06mp": [
+   [
+    1301,
+    "Kraków WNMP (Mariacki)",
+    "0.0",
+    "małopolskie"
+   ]
+  ]
+ }
+}

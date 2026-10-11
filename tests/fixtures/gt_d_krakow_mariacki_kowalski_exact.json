@@ -1,0 +1,53 @@
+{
+ "draw": 1,
+ "recordsTotal": 15,
+ "recordsFiltered": 15,
+ "data": [
+  [
+   1860,
+   "37",
+   "Franciszek ",
+   "Kowalski",
+   "Franciszek",
+   "",
+   "",
+   "Kraków WNMP (Mariacki)",
+   "Kraków",
+   "<img src=\"images/i.png\" title=\"Uwagi: Lat 1 \"><a href=\"http://ank.gov.pl/\" target=\"_blank\"><img src=\"images/z.png\" title=\"Miejsce przechowywania ksiąg: &#013;Archiwum Narodowe w Krakowie &#013;&#013;30-960 Kraków, ul. Sienna 16\"></a><a target=\"_blank\" href=\"https://www.genealodzy.pl/user.php?op=userinfo&amp;uname=artekm\"><img src=\"images/a.png\" title=\"Indeks dodał: artekm\"></a><a class=\"gt\" target =\"doc\" href=\"https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/14604892\"><img src=\"images/s.png\"></a><a href=\"fix.php?gid=4473798&bdm=D&w=06mp&rid=8960&lang=pol\" target=\"_blank\"><img src=\"images/fix.png\" title=\"Zgłoś poprawkę\"></a>"
+  ],
+  [
+   1862,
+   "54",
+   "Ignacy ",
+   "Kowalski",
+   "",
+   "",
+   "",
+   "Kraków WNMP (Mariacki)",
+   "Kraków",
+   "<img src=\"images/i.png\" title=\"Uwagi: Lat 63, wdowiec \"><a href=\"http://ank.gov.pl/\" target=\"_blank\"><img src=\"images/z.png\" title=\"Miejsce przechowywania ksiąg: &#013;Archiwum Narodowe w Krakowie &#013;&#013;30-960 Kraków, ul. Sienna 16\"></a><a target=\"_blank\" href=\"https://www.genealodzy.pl/user.php?op=userinfo&amp;uname=artekm\"><img src=\"images/a.png\" title=\"Indeks dodał: artekm\"></a><a class=\"gt\" target =\"doc\" href=\"https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/14604892\"><img src=\"images/s.png\"></a><a href=\"fix.php?gid=4474234&bdm=D&w=06mp&rid=8960&lang=pol\" target=\"_blank\"><img src=\"images/fix.png\" title=\"Zgłoś poprawkę\"></a>"
+  ],
+  [
+   1863,
+   "5",
+   "Kajetan ",
+   "Kowalski",
+   "",
+   "",
+   "",
+   "Kraków WNMP (Mariacki)",
+   "Kraków",
+   "<img src=\"images/i.png\" title=\"Uwagi: Lat 80, kawaler \"><a href=\"http://ank.gov.pl/\" target=\"_blank\"><img src=\"images/z.png\" title=\"Miejsce przechowywania ksiąg: &#013;Archiwum Narodowe w Krakowie &#013;&#013;30-960 Kraków, ul. Sienna 16\"></a><a target=\"_blank\" href=\"https://www.genealodzy.pl/user.php?op=userinfo&amp;uname=artekm\"><img src=\"images/a.png\" title=\"Indeks dodał: artekm\"></a><a class=\"gt\" target =\"doc\" href=\"https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/14604892\"><img src=\"images/s.png\"></a><a href=\"fix.php?gid=4474424&bdm=D&w=06mp&rid=8960&lang=pol\" target=\"_blank\"><img src=\"images/fix.png\" title=\"Zgłoś poprawkę\"></a>"
+  ]
+ ],
+ "parishes": {
+  "06mp": [
+   [
+    8960,
+    "Kraków WNMP (Mariacki)",
+    "0.0",
+    "małopolskie"
+   ]
+  ]
+ }
+}

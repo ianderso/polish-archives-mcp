@@ -1,0 +1,55 @@
+{
+  "basia_search": [
+    "distance_km",
+    "given",
+    "page",
+    "persons",
+    "place",
+    "record",
+    "refresh",
+    "similarity",
+    "surname",
+    "unit",
+    "year_from",
+    "year_to"
+  ],
+  "cache_status": [],
+  "geneteka_coverage": [
+    "place",
+    "refresh",
+    "region",
+    "year"
+  ],
+  "geneteka_search": [
+    "exact",
+    "given",
+    "given2",
+    "page",
+    "record_type",
+    "refresh",
+    "region",
+    "rid",
+    "surname",
+    "surname2",
+    "year_from",
+    "year_to"
+  ],
+  "poznan_search": [
+    "any_surname",
+    "bride_given",
+    "bride_surname",
+    "confession",
+    "groom_given",
+    "groom_surname",
+    "page",
+    "refresh",
+    "threshold",
+    "year_from",
+    "year_to"
+  ],
+  "regions": [],
+  "swa_scan": [
+    "destination",
+    "hash"
+  ]
+}

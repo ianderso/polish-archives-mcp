@@ -1,0 +1,25 @@
+name: Feature request
+description: A research question the tools cannot answer yet, or an index to add.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tools that write to a site, fetch Szukaj w Archiwach's unit pages, or work around a bot check will not be merged. See "Out of scope, by decision" in [docs/DESIGN.md](https://github.com/ianderso/polish-archives-mcp/blob/main/docs/DESIGN.md).
+  - type: textarea
+    id: problem
+    attributes:
+      label: The research problem
+      description: What you were trying to find or read, and where the current tools stopped you.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would help
+      description: A new tool, a new parameter, a change to what a tool returns, or an index to add.
+  - type: textarea
+    id: source
+    attributes:
+      label: Index to add
+      description: Its address, who runs it, what it covers, and what its terms say about automated use.

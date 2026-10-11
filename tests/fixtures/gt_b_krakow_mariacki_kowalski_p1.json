@@ -1,0 +1,77 @@
+{
+ "draw": 1,
+ "recordsTotal": 60,
+ "recordsFiltered": 60,
+ "data": [
+  [
+   1856,
+   "16",
+   "Jan Paweł",
+   "Kowalski",
+   "",
+   "Maria",
+   "Kowalska",
+   "Kraków WNMP (Mariacki)",
+   "Kraków",
+   "<span class=\"_i\"></span><a href=\"http://ank.gov.pl/\" target=\"_blank\"><img src=\"images/z.png\" title=\"Miejsce przechowywania ksiąg: &#013;Archiwum Narodowe w Krakowie &#013;&#013;30-960 Kraków, ul. Sienna 16\"></a><a target=\"_blank\" href=\"https://www.genealodzy.pl/user.php?op=userinfo&amp;uname=artekm\"><img src=\"images/a.png\" title=\"Indeks dodał: artekm\"></a><a class=\"gt\" target =\"doc\" href=\"https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/14604751\"><img src=\"images/s.png\"></a><a href=\"fix.php?gid=9340839&bdm=B&w=06mp&rid=8959&lang=pol\" target=\"_blank\"><img src=\"images/fix.png\" title=\"Zgłoś poprawkę\"></a>"
+  ],
+  [
+   1850,
+   "109",
+   "Ludwika Honorata",
+   "Kunrady",
+   "Ferdynand",
+   "Honorata",
+   "Kowalewska",
+   "Kraków WNMP (Mariacki)",
+   "Kraków",
+   "<img src=\"images/i.png\" title=\" &#013;Data urodzenia: 15.04.1850 r. \"><a href=\"http://ank.gov.pl/\" target=\"_blank\"><img src=\"images/z.png\" title=\"Miejsce przechowywania ksiąg: &#013;Archiwum Narodowe w Krakowie &#013;&#013;30-960 Kraków, ul. Sienna 16\"></a><a target=\"_blank\" href=\"https://www.genealodzy.pl/user.php?op=userinfo&amp;uname=KasiaKP\"><img src=\"images/a.png\" title=\"Indeks dodał: KasiaKP\"></a><a class=\"gt\" target =\"doc\" href=\"https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/14604745\"><img src=\"images/s.png\"></a><a href=\"fix.php?gid=2711170&bdm=B&w=06mp&rid=8959&lang=pol\" target=\"_blank\"><img src=\"images/fix.png\" title=\"Zgłoś poprawkę\"></a>"
+  ],
+  [
+   1850,
+   "202",
+   "Wincenty Piotr",
+   "Kowalski",
+   "Piotr",
+   "Marianna",
+   "Bałazińska",
+   "Kraków WNMP (Mariacki)",
+   "Kraków",
+   "<img src=\"images/i.png\" title=\" &#013;Data urodzenia: 19.07.1850 r. \"><a href=\"http://ank.gov.pl/\" target=\"_blank\"><img src=\"images/z.png\" title=\"Miejsce przechowywania ksiąg: &#013;Archiwum Narodowe w Krakowie &#013;&#013;30-960 Kraków, ul. Sienna 16\"></a><a target=\"_blank\" href=\"https://www.genealodzy.pl/user.php?op=userinfo&amp;uname=KasiaKP\"><img src=\"images/a.png\" title=\"Indeks dodał: KasiaKP\"></a><a class=\"gt\" target =\"doc\" href=\"https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/14604745\"><img src=\"images/s.png\"></a><a href=\"fix.php?gid=2711263&bdm=B&w=06mp&rid=8959&lang=pol\" target=\"_blank\"><img src=\"images/fix.png\" title=\"Zgłoś poprawkę\"></a>"
+  ],
+  [
+   1850,
+   "248",
+   "Stanisław Wincenty",
+   "Jakubowski<img src=\"images/i.png\" title=\"Inne nazwiska: Kowalski \">",
+   "Paweł",
+   "Marianna",
+   "Kowalska",
+   "Kraków WNMP (Mariacki)",
+   "Kraków",
+   "<img src=\"images/i.png\" title=\"Uwagi: uznanie dziecka przez ojca do aktu z 1849 r.  &#013;Data urodzenia: 05.04.1849 r. \"><a href=\"http://ank.gov.pl/\" target=\"_blank\"><img src=\"images/z.png\" title=\"Miejsce przechowywania ksiąg: &#013;Archiwum Narodowe w Krakowie &#013;&#013;30-960 Kraków, ul. Sienna 16\"></a><a target=\"_blank\" href=\"https://www.genealodzy.pl/user.php?op=userinfo&amp;uname=KasiaKP\"><img src=\"images/a.png\" title=\"Indeks dodał: KasiaKP\"></a><a class=\"gt\" target =\"doc\" href=\"https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/14604745\"><img src=\"images/s.png\"></a><a href=\"fix.php?gid=2711309&bdm=B&w=06mp&rid=8959&lang=pol\" target=\"_blank\"><img src=\"images/fix.png\" title=\"Zgłoś poprawkę\"></a>"
+  ],
+  [
+   1851,
+   "20",
+   "Władysław Jan",
+   "Schramm",
+   "Władysław",
+   "Paulina",
+   "Kowalska",
+   "Kraków WNMP (Mariacki)",
+   "Kraków",
+   "<img src=\"images/i.png\" title=\" &#013;Data urodzenia: 26.01.1851 r. \"><a href=\"http://ank.gov.pl/\" target=\"_blank\"><img src=\"images/z.png\" title=\"Miejsce przechowywania ksiąg: &#013;Archiwum Narodowe w Krakowie &#013;&#013;30-960 Kraków, ul. Sienna 16\"></a><a target=\"_blank\" href=\"https://www.genealodzy.pl/user.php?op=userinfo&amp;uname=KasiaKP\"><img src=\"images/a.png\" title=\"Indeks dodał: KasiaKP\"></a><a class=\"gt\" target =\"doc\" href=\"https://www.szukajwarchiwach.gov.pl/jednostka/-/jednostka/14604746\"><img src=\"images/s.png\"></a><a href=\"fix.php?gid=2711390&bdm=B&w=06mp&rid=8959&lang=pol\" target=\"_blank\"><img src=\"images/fix.png\" title=\"Zgłoś poprawkę\"></a>"
+  ]
+ ],
+ "parishes": {
+  "06mp": [
+   [
+    8959,
+    "Kraków WNMP (Mariacki)",
+    "0.0",
+    "małopolskie"
+   ]
+  ]
+ }
+}

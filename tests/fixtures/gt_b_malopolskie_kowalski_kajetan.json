@@ -1,0 +1,20 @@
+{
+ "draw": 1,
+ "recordsTotal": 1,
+ "recordsFiltered": 1,
+ "data": [
+  [
+   1843,
+   "88",
+   "Katarzyna ",
+   "Kowalska",
+   "Kajetan",
+   "Regina",
+   "Wosińska",
+   "Kościelec",
+   "Sieradzice",
+   "<img src=\"images/i.png\" title=\" &#013;Data urodzenia: 28.10.1843 r. \"><a href=\"http://www.archiwum.diecezja.kielce.pl/\" target=\"_blank\"><img src=\"images/z.png\" title=\"Miejsce przechowywania ksiąg: &#013;Archiwum Diecezjalne w Kielcach &#013;&#013;25-013 Kielce, ul. Jana Pawła II 3\"></a><a target=\"_blank\" href=\"https://www.genealodzy.pl/user.php?op=userinfo&amp;uname=dombas\"><img src=\"images/a.png\" title=\"Indeks dodał: dombas\"></a><a href=\"fix.php?gid=1153015&bdm=B&w=06mp&rid=6776&lang=pol\" target=\"_blank\"><img src=\"images/fix.png\" title=\"Zgłoś poprawkę\"></a>"
+  ]
+ ],
+ "parishes": []
+}

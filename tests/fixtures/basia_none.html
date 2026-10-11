@@ -1,0 +1,391 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BaSIA - Database of Archival Indexing System</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="/css/templatemo_style.css" rel="stylesheet" type="text/css" />
+
+
+<!-- Google tag (gtag.js) -->
+
+
+
+<!--
+<link href="/css/jquery.ennui.contentslider.css" rel="stylesheet" type="text/css" media="screen,projection" />
+
+
+ <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  
+  
+  
+  <link type="text/css" href="/css/redmond/jquery-ui-1.8.16.custom.css" rel="stylesheet" />	
+		
+		
+ -->
+ <link type="text/css" href="/css/redmond/jquery-ui-1.8.16.custom.css" rel="stylesheet" />	
+		
+		
+  
+
+<link href="/css/facebox.css" media="screen" rel="stylesheet" type="text/css" />
+
+	
+  
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+   integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+   crossorigin=""/>
+   
+    
+    
+    
+
+
+
+
+
+</head>
+<body>
+
+
+<div id="templatemo_site_title_bar_wrapper">
+	<div id="templatemo_site_title_bar">
+    	<div id="site_title">
+            <h1><a href="/en/"><img src="/images/BaSIA_logo_header_rudy.png" width="75" height="90" alt="BaSIA"><span>Database of Archival Indexing System</span></a></h1>
+        </div>
+        
+        <ul id="templatemo_menu">
+			<li><a href='/en/' class='current'><span></span>Main Page</a></li><li><a href='/en/zawartosc'><span></span>Contents</a></li><li><a href='/en/asia_info'><span></span>ASIA</a></li><li><a href='/en/o_projekcie'><span></span>About the Project</a></li><li><a href='/en/kontakt'><span></span>Contact</a></li>        </ul>
+        
+        <div id="search_box">
+            <form id="simpleform" action="/en/" method="post">
+                <input 
+				style="width:270px; height:25px; font-size: 14px;line-height: 1.5em;vertical-align: middle;padding-left:5px";
+				type="text" value="" name="q" size="10" id="searchfield" placeholder="Type surname to search for..."
+				title="Type surname to search for..."  />
+                <input 
+					style="width:150px; height:30px; font-size: 14px;line-height: 1.5em;text-align: center;vertical-align: middle;";
+					type="submit" name="Search" 
+					value="Search" alt="Search" 
+					id="searchbutton" 
+					title="Search" />
+				
+            </form>
+       </div>
+	   
+	   
+	   <div id="lang_box">
+		<form >
+		Language: 		<!-- disabled="disabled" -->
+		<select name="language" onchange="ChangeLang(this.form.language)">
+		<option value="pl/"  >Polski</option>
+		<option value="de/"  >Deutsch</option>
+		<option value="en/" selected='selected'  >English</option>
+		<option value="fr/"  >Français</option>
+		</select>
+		<!--<img src="/images/select-language-b.png" style="vertical-align: middle;"/>-->
+		</form>
+		
+		</div>
+       
+	</div> <!-- end of templatemo_site_title_bar -->        
+       
+</div> <!-- end of templatemo_site_title_bar_wrapper -->
+
+<div id="templatemo_banner_wrapper_outter">
+<div id="templatemo_banner_top" >
+
+	
+	<div id="templatemo_banner_top_inside" >
+		<div id="top_links" >
+			<a href='http://poznan-project.psnc.pl/' target='_blank'>Poznań Project</a><span style='color: #3388EE; '> - Greater Poland marriage database</span>
+		</div>
+		<div id="top_expand" >
+			<a style="display: none; line-height: 30px; vertical-align:middle;" id="open" class="open" href="#"> ⇩ Extended search</a>
+			<a id="close" style="display: inline; line-height: 30px; vertical-align:middle;" class="close" href="#"> ⇧ Hide</a>	
+		</div>
+		<div style='clear:both'></div>
+	</div>
+	
+	
+</div>
+<div id="search_slider" style="display:block">
+	
+	
+
+
+<form id="AdvForm" name="szukaj" action="/en/" method="POST">
+<div id="search_ext_body" >
+
+<div id="search_person_box">
+
+	
+		<div id='person0' class='search_person'>
+			<div class='person_option'><br> Person: </div>
+			<div class='person_option'>First Name<br><input size='20' value='' name='fname0' type='text'></div>
+			<div class='person_option'>Last Name<br><input size='20' value='Qwxzyk' name='lname0' type='text'></div>
+			<div class='person_option'>Gender<br>
+				<select name='sex0' ><option selected value='any' >Default</option><option value='m' >Male</option><option value='k' >woman</option>
+				</select>
+			</div>
+			<div class='person_option'>Relation<br>
+				<select name='type0' ><option selected value='any' >Default</option><option value='parent' >Spouse/Parent</option><option value='child' >Children</option><option value='other' >Other</option>
+		</select>
+		</div>
+		<div class='person_option' style='width:200px;'>Similarity: 
+		 <input value='90' name='sim0' id='personsim0' maxlength='3' type='text' style='background-color: transparent; border:0; width: 22px; margin:0'> %<br>
+		 <div id='simslider0' style='margin: 2px 0 0 0 '></div>
+		</div>
+		
+		<div style='clear:both'></div>
+		</div><input value='1' name='p_count' id='p_count' type='hidden'>	
+</div>
+
+
+	<p id="add_person_link"><a href="#" onClick="addPerson(); return false;">+ Add person</a>
+		<span style="color:#555"> – wyszukaj wpisy, w których występują wszystkie podane osoby (np. dziecko i rodzice)</span></p>
+	<br>
+
+			
+	
+
+<div>	
+
+<div id="search_year_box">
+Years <input value="1577" name="od" id="od" maxlength="4" type="text" style="background-color: transparent; border:0; width: 35px; margin:0"> - 
+<input value="2026" name="do" id="do" maxlength="4" type="text" style="background-color: transparent; border:0; width: 35px; margin:0">
+
+	<br>
+
+	<div style="width: 600px; padding-left: 10px">
+		<div id="slider-range"></div>
+	</div>
+</div>
+<br>
+
+
+
+
+
+
+
+
+<div id="search_place_box" style="display:none">
+	<div style='float:left'>
+	Place (nazwa oraz powiat)<br>
+	<input size='30' value='' name='placename' type='text'>
+	</div>
+	<div style='float:left'>
+	Distance (km)<br>
+	<input size='20' value='10' name='distance' type='text'>
+	</div>
+	<div style='clear:both'></div>
+	<input size='20' value='none' name='showplaces' type='hidden' id='showplaces'>
+	<input value='' name='area' type='hidden'></div>
+
+
+<p><a href="#" onClick="addPlace(); return false;" id="placelink">+ Specify location</a></p><br>
+
+		
+
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+
+
+<div id="search_type_box" style="display:block">
+	<div style='float:left'>
+
+		Organization type<br>
+		<select name='type_unit' id='type_unit' ><option selected value='any'>Default</option><option value='usc'>Registry office</option><option value='kat'>Catholic parish</option><option value='ewa'>Protestant parish</option><option value='other'>Other</option></select>	</div>
+	<div style='float:left'>
+		Document type<br>
+		<select name='type_record' id='type_record' ><option selected value='any'>All</option><option value='a'>Birth/baptism record</option><option value='b'>Marriage record</option><option value='c'>Death certificate</option><option value='d'>Announcements</option><option value='z'>Other</option></select>	</div>
+	<div style='clear:both'></div>
+	<input size='20' value='block' name='showtype' type='hidden' id='showtype'>
+</div>
+
+
+<p><a href="#" onClick="addType(); return false;" id="typelink">- Any document</a></p><br>
+
+
+	
+	
+	
+	
+	
+	
+
+<div id="search_date_box" style="display:none">
+	<div style='float:left'>
+
+		From<br>
+		<input size='20' value='2011-01-28' name='datefrom' id='datefrom' type='text'>
+	</div>
+	<div style='float:left'>
+		To<br>
+		<input size='20' value='2026-10-11' name='dateto' id='dateto' type='text'>
+	</div>
+	<div style='clear:both'></div>
+	<input size='20' value='none' name='showdate' type='hidden' id='showdate'>
+</div>
+
+
+<p><a href="#" onClick="addDate(); return false;" id="datelink">+ Specify add date</a></p><br>
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+</div>
+
+
+</div>
+	<div id="search_ext_button">
+	<input type="hidden" name="search_ext" value="szukaj" />
+	<input id="AdvSearch" value="Search" style="height: 40px; width: 150px;" type="submit" name="search_ext_button">
+	</div>
+	
+</form>
+
+
+	
+</div> <!-- end of templatemo_banner_wrapper -->
+<div id="templatemo_banner_bottom" ></div>
+</div> <!-- end of templatemo_banner_wrapper_outter -->
+
+
+
+
+<div id="templatemo_content">
+	
+    <div id="twitter_section">
+    	
+				<div id="map_container" style="width:100%; margin: 0px 0 10px 0; padding-top:10px">
+				<div id="search_params" style="margin: 0 0 10px 0;"><h3>Search:</h3>Last Name:<br>- Qwxzyk (relation: default).<br><br>Years: 1577-2026<br><br>Search time: 0 s (0 s + 0 s).<br></div>
+				<a name="gmap" id="gmap"></a>
+				<div id="map_canvas"></div>
+				<div id="map_info" style="margin: 10px 0 0 0;"><h3>No search results for your query</h3><br></div>
+			<div style='clear:both'></div>
+			</div>
+			       
+    	<div class="cleaner"></div>
+    </div>
+    
+    
+    <div class="cleaner"></div>
+</div> <!-- end of templatemo_content -->
+ 
+
+<div id="templatemo_footer_wrapper">
+<div id="templatemo_footer">
+
+    <div class="section_w240">
+        <!--
+        <h3>Privacy Policy</h3>
+        
+        <div class="sub_content">
+            <p>Nullam ultrices tempor nisi, ac egestas diam aliquam a. Ut eleifend semper turpis, id feugiat arcu dignissim eu. Donec mattis adipiscing imperdiet.</p>
+        </div>
+        -->
+    </div>
+
+    <div class="section_w240">
+        <!--
+        <h3>Partners</h3>
+        
+        <div class="sub_content">
+            
+            <ul class="footer_list">
+                <li><a href="http://www.templatemo.com/page/1" target="_parent">Free CSS Templates</a></li>
+                <li><a href="http://www.flashmo.com/page/1" target="_parent">Free Flash Templates</a></li>
+                <li><a href="http://www.flashmo.com/store" target="_parent">Template Store</a></li>
+                <li><a href="http://www.webdesignmo.com/blog" target="_parent">Web Design Tips</a></li>
+                <li><a href="http://www.koflash.com" target="_parent">Best Flash Gallery</a></li>               
+            </ul>
+            
+        </div>
+        -->
+    </div>
+    
+    <div class="section_w240">
+        <!--
+        <h3>About</h3>
+        
+        <div class="sub_content">
+        
+            <ul class="footer_list">
+                <li><a href="#">Lorem ipsum dolor</a></li>
+                <li><a href="#">Cum sociis</a></li>
+                <li><a href="#">Donec quam</a></li>
+                <li><a href="#">Nulla consequat</a></li>
+                <li><a href="#">In enim justo</a></li>
+            </ul>
+        
+        </div>
+        -->
+    </div>
+    <!--
+    <div class="section_w240">
+        
+        <h3>XHTML/CSS validations</h3>
+        
+        <div class="sub_content">
+        	
+            <p>Aliquam vehicula...</p>
+            
+            <div class="cleaner_h20"></div>
+			
+            <a href="http://validator.w3.org/check?uri=referer"><img style="border:0;width:88px;height:31px" src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" width="88" height="31" vspace="8" border="0" /></a>
+            
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px"  src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" vspace="8" border="0" /></a>
+            
+        </div>
+           
+    </div>
+    
+    <div class="cleaner_h40"></div>
+    -->
+    
+    <center>
+        Copyright © 2011-2026 <a href="http://www.famula.pl">famula.pl</a> | 
+        Designed by <a href="http://www.templatemo.com" target="_parent">Free CSS Templates</a>
+    </center>
+    
+
+</div> <!-- end of footer -->
+</div> <!-- end of footer wrapper -->
+
+<!-- Nakładka "trwa wyszukiwanie" – przy popularnych nazwiskach wynik może przyjść po kilku sekundach -->
+
+<div id="search_loader" role="status" aria-live="polite">
+	<div class="box">
+		<div class="spin"></div>
+		Trwa wyszukiwanie...		<small>Przy popularnych nazwiskach może to potrwać kilka sekund.</small>
+	</div>
+</div>
+
+
+</body>
+</html>
+
+<!---->
+

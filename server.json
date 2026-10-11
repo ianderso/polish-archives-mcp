@@ -1,0 +1,48 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ianderso/polish-archives-mcp",
+  "title": "Polish Archives Indexes",
+  "description": "Search Geneteka, the Poznań Project and BaSIA for Polish vital records; fetch archive scans.",
+  "repository": {
+    "url": "https://github.com/ianderso/polish-archives-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "polish-archives-mcp",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "POLISH_ARCHIVES_CACHE_DIR",
+          "description": "Directory for the on-disk response cache.",
+          "default": "~/.cache/polish-archives-mcp"
+        },
+        {
+          "name": "POLISH_ARCHIVES_TIMEOUT",
+          "description": "HTTP timeout in seconds for one request. Scan downloads get 180 s to read.",
+          "default": "60"
+        },
+        {
+          "name": "POLISH_ARCHIVES_MIN_INTERVAL",
+          "description": "Least seconds between two requests to one site. Never below 4; BaSIA always gets at least 10.",
+          "default": "4"
+        },
+        {
+          "name": "POLISH_ARCHIVES_CONTACT",
+          "description": "An email address or URL appended to the User-Agent, so a site can reach whoever runs the server."
+        },
+        {
+          "name": "POLISH_ARCHIVES_DOWNLOAD_DIR",
+          "description": "An existing folder. When set, swa_scan saves only inside it; needed to save under ~/Library, such as an iCloud Drive folder."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/ianderso/polish-archives-mcp/security/advisories/new
+    about: Privately, not in a public issue. See SECURITY.md.
+  - name: A wrong index entry
+    url: https://geneteka.genealodzy.pl/
+    about: This project indexes nothing itself. Corrections to an entry go to the index that holds it (Geneteka, the Poznań Project or BaSIA), each of which has its own correction form.
