@@ -10,4 +10,4 @@ given the scan's hash. Nothing here writes anywhere, and nothing here keeps a
 family tree.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"

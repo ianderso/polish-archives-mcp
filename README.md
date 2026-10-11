@@ -150,7 +150,7 @@ result naming the variable.
 
 Each site is a volunteer society's server or an archive's. The client sends
 one request at a time to each site, at least four seconds apart, and ten to
-BaSIA; different sites do not wait for one another. A Geneteka search fetches
+BaSIA and Geneteka; different sites do not wait for one another. A Geneteka search fetches
 one page of fifty rows per call, never the whole result in a burst. Two
 identical calls in flight share one request. The coverage list is cached for
 a week, searches for a day, the Poznań Project's name groups for a month; a
@@ -163,7 +163,7 @@ What each source says about automated use, as checked on 2026-10-11:
 - **Geneteka.** No terms of use are linked from
   [geneteka.genealodzy.pl](https://geneteka.genealodzy.pl/). Its
   `robots.txt` disallows nothing and sets `Crawl-delay: 120`. This server
-  makes one request per tool call there, at least four seconds apart.
+  makes one request per tool call there, at least ten seconds apart.
 - **The Poznań Project.** Its
   [about page](https://poznan-project.psnc.pl/page.php?page=about) says the
   database is "dostępna dla wszystkich użytkowników sieci poprzez bezpłatną
