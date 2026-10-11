@@ -10,6 +10,14 @@ release.
 
 ## [Unreleased]
 
+## [0.1.1] — 2026-10-11
+
+### Changed
+
+- Geneteka requests are spaced at least ten seconds apart, as BaSIA's are;
+  the Poznań Project and the photo host keep four. These are the server's own
+  limits; the sites' `robots.txt` crawl delays are recorded in the README.
+
 ## [0.1.0] — 2026-10-11
 
 First release.

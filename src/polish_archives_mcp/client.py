@@ -63,11 +63,13 @@ HOSTS = frozenset({GENETEKA, POZNAN, BASIA, PHOTOS})
 #: fetched; named so a refusal can say why.
 SWA_SITE = "www.szukajwarchiwach.gov.pl"
 
-#: Least seconds between two requests to a host, where a site asks for more
-#: than the server's own interval. BaSIA's robots.txt gives a crawl delay of
-#: 10 seconds and says each search is a costly database query; one search is
-#: one request, so honouring it costs a caller almost nothing.
-HOST_FLOORS: Mapping[str, float] = {BASIA: 10.0}
+#: Least seconds between two requests to a host, where this server spaces a
+#: site more widely than its own interval: ten seconds for BaSIA, where each
+#: search is a costly database query, and for Geneteka, the largest of the
+#: volunteer indexes. One search is one request at each, so the spacing costs
+#: a caller little. These are the server's own limits; the sites' robots.txt
+#: files are recorded in the README, not followed.
+HOST_FLOORS: Mapping[str, float] = {BASIA: 10.0, GENETEKA: 10.0}
 
 #: Longest wait honoured from a ``Retry-After`` header, in seconds.
 RETRY_AFTER_CAP = 30.0

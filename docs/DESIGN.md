@@ -84,14 +84,14 @@ its long side, since a full scan is about 3500.
 
 The script paused four seconds between pages and kept to "a few queries a
 minute". The client keeps that as a floor: one request at a time per host,
-at least four seconds apart (configurable upward, never below four). BaSIA's
-`robots.txt` gives a crawl delay of ten seconds and says each search is a
-costly database query; since one BaSIA search is one request, the server
-honours ten seconds there at no cost to a caller. Geneteka's `robots.txt`
-gives a crawl delay of 120 seconds; honouring that would make one search of
-three pages take six minutes, so the server keeps four seconds but reads
-only one page per tool call, never a whole result in a burst. Both facts
-are in the README, for the operator to weigh.
+at least four seconds apart (configurable upward, never below four). Two
+sites get ten seconds: BaSIA, where each search is a costly database query,
+and Geneteka, the busiest of the volunteer indexes. One search is one
+request at either, so the spacing costs a caller little; Geneteka is also
+read one page per tool call, never a whole result in a burst. These are the
+server's own limits. The sites' `robots.txt` files (BaSIA: a 10-second crawl
+delay; Geneteka: 120 seconds, which would make a three-page search take six
+minutes) are recorded in the README as facts, not followed.
 
 Answers are cached on disk: the coverage list (2.5 MB) for a week, searches
 for a day, the Poznań Project's name groups for 30 days, its archive pages

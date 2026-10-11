@@ -108,6 +108,7 @@ async def test_basia_gets_its_own_longer_interval(tmp_path):
         tmp_path, min_interval=4.0, host_floors=HOST_FLOORS, clock=clock, sleep=clock.sleep
     )
     assert http.interval_for(BASIA) == 10.0 and http.interval_for(POZNAN) == 4.0
+    assert http.interval_for(GENETEKA) == 10.0
     with respx.mock(assert_all_mocked=True, assert_all_called=False) as router:
         router.route(host=BASIA).mock(return_value=httpx.Response(200, text="ok"))
         await http.get_text(f"https://{BASIA}/en/", ttl_days=1, data={"lname0": "A"})
